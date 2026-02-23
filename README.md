@@ -46,7 +46,7 @@ The system follows a real-time vision pipeline:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AirMouse.git
+git clone https://github.com/SaakshiMV/Air_Mouse.git
 cd AirMouse
 ```
 
