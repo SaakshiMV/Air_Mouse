@@ -109,20 +109,6 @@ This project focuses heavily on **real-world usability**:
 
 ---
 
-## 📸 Demo Preview (Recommended)
-
-Add a demo GIF or video here for maximum impact:
-
-```
-/assets/demo.gif
-```
-
-Example:
-
-![Demo](assets/demo.gif)
-
----
-
 ## 🧩 Possible Extensions
 
 - Multi-hand support
@@ -135,20 +121,20 @@ Example:
 
 ## 🏗️ Project Structure
 
-```
+```text
 AirMouse/
-│── main.py
-│── requirements.txt
-│── README.md
+│── main.py                 → Entry point; handles video capture, gesture detection, UI rendering, and mouse actions
+│── requirements.txt        → Lists all Python dependencies required to run the project
+│── README.md               → Project documentation, setup instructions, and usage details
 │
 ├── hand_tracking/
-│   └── tracker.py
+│   └── tracker.py          → MediaPipe-based hand detection and landmark coordinate extraction
 │
 ├── mouse_control/
-│   └── controller.py
+│   └── controller.py       → Cursor movement, smoothing, gesture logic, and OS mouse control
 │
 └── utils/
-    └── config.py
+    └── config.py           → Configurable parameters (thresholds, smoothing, camera settings)
 ```
 
 ---
